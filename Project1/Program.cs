@@ -1,6 +1,6 @@
 ﻿// esse código é somente das aulas que estou aprendendo na DIO.
 
-using Project.Models;
+using Project1.Models;
 
 People pessoa1 = new People();
 
