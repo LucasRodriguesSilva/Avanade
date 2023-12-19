@@ -1,6 +1,7 @@
 ﻿// Tratando exceção
 
 // trantando para arquivo não encontrado
+using System.Runtime.Serialization;
 using Project3.Models;
 
 try
@@ -82,4 +83,42 @@ Console.WriteLine($"Tirando o número {pilha.Pop()} que estava no topo");
 foreach (int pilhas in pilha)
 {
     Console.WriteLine(pilhas);
+}
+
+// Elementos com chave de acesso
+
+Console.WriteLine("DICTIONARY");
+
+Dictionary<int, string> item = new Dictionary<int, string>();
+
+item.Add(1, "Chave de acesso 1");
+item.Add(2, "Chave de acesso 2");
+item.Add(3, "Chave de acesso 3");
+item.Add(4, "Chave de acesso 4");
+
+// Acessando valor
+Console.WriteLine(item[1]);
+
+foreach (var itens in item)
+{
+    Console.WriteLine($"Chave: {itens.Key} tem o valor: {itens.Value}");
+}
+
+item.Remove(4);
+item[1] = $"a chave de acesso 1 foi modificada";
+
+Console.WriteLine(item[1]);
+
+// saber se um valor já existe
+
+int valorExistente = 1;
+Console.WriteLine($"verificando a chave: {valorExistente}");
+
+if(item.ContainsKey(valorExistente))
+{
+    Console.WriteLine($"Não pode adicionar a chave: {valorExistente}");
+}
+else
+{
+    Console.WriteLine($"Pode adicionar o {valorExistente}");
 }
