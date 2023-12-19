@@ -1,6 +1,8 @@
 ﻿// Tratando exceção
 
 // trantando para arquivo não encontrado
+using Project3.Models;
+
 try
 {
     string[] listas = File.ReadAllLines("Arquivos/ttexto.txt");
@@ -27,4 +29,31 @@ try
 catch (DirectoryNotFoundException)
 {
     Console.WriteLine($"Pasta não foi encontrada");
+}
+finally
+{
+    Console.WriteLine("Finalizado");
+}
+
+new ExemploExcecao().Metodo1();
+
+// Fila
+
+Queue<int> fila = new Queue<int>();
+
+fila.Enqueue(1);
+fila.Enqueue(2);
+fila.Enqueue(3);
+fila.Enqueue(4);
+
+foreach (int filas in fila)
+{
+    Console.WriteLine(filas);
+}
+
+Console.WriteLine($"Eliminando o {fila.Dequeue()}");
+
+foreach(int filas in fila)
+{
+    Console.WriteLine(filas);
 }
