@@ -39,6 +39,8 @@ new ExemploExcecao().Metodo1();
 
 // Fila
 
+Console.WriteLine("FILA");
+
 Queue<int> fila = new Queue<int>();
 
 fila.Enqueue(1);
@@ -51,9 +53,33 @@ foreach (int filas in fila)
     Console.WriteLine(filas);
 }
 
-Console.WriteLine($"Eliminando o {fila.Dequeue()}");
+Console.WriteLine($"Eliminando o {fila.Dequeue()} que era o primeiro da fila");
 
 foreach(int filas in fila)
 {
     Console.WriteLine(filas);
+}
+
+// Pilhas
+
+Console.WriteLine("PILHA");
+
+Stack<int> pilha = new Stack<int>();
+
+pilha.Push(6);
+pilha.Push(7);
+pilha.Push(8);
+pilha.Push(9);
+
+foreach (int pilhas in pilha)
+{
+    Console.WriteLine(pilhas);
+}
+
+Console.WriteLine($"Tirando o número {pilha.Pop()} que estava no topo");
+
+
+foreach (int pilhas in pilha)
+{
+    Console.WriteLine(pilhas);
 }
