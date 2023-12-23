@@ -17,3 +17,15 @@ contaPessoa1.ExibirSaldo();
 contaPessoa1.Sacar(100);
 contaPessoa1.ExibirSaldo();
 contaPessoa1.Sacar(4000);
+
+Console.WriteLine("ALUNO");
+Aluno aluno1 = new Aluno();
+aluno1.Nome = "Lucas";
+aluno1.Idade = 25;
+aluno1.Nota = 10;
+
+Console.WriteLine("PROFESSOR");
+Professor professor1 = new Professor();
+professor1.Nome = "Bruno";
+professor1.Idade = 25;
+professor1.Salario = 2000;
