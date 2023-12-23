@@ -1,0 +1,15 @@
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\bin\Debug\net8.0\Project4-POO.exe
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\bin\Debug\net8.0\Project4-POO.deps.json
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\bin\Debug\net8.0\Project4-POO.runtimeconfig.json
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\bin\Debug\net8.0\Project4-POO.dll
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\bin\Debug\net8.0\Project4-POO.pdb
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\obj\Debug\net8.0\Project4-POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\obj\Debug\net8.0\Project4-POO.AssemblyInfoInputs.cache
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\obj\Debug\net8.0\Project4-POO.AssemblyInfo.cs
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\obj\Debug\net8.0\Project4-POO.csproj.CoreCompileInputs.cache
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\obj\Debug\net8.0\Project4-POO.sourcelink.json
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\obj\Debug\net8.0\Project4-POO.dll
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\obj\Debug\net8.0\refint\Project4-POO.dll
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\obj\Debug\net8.0\Project4-POO.pdb
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\obj\Debug\net8.0\Project4-POO.genruntimeconfig.cache
+C:\Users\Lucas R S\Desktop\Projects\Project4-POO\obj\Debug\net8.0\ref\Project4-POO.dll
