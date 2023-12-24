@@ -5,16 +5,21 @@ using System.Threading.Tasks;
 
 namespace Project4_POO.Models
 {
-    public class Professor : Pessoa
+    public sealed class Professor : Pessoa
     {
-        public Professor(double salario)
-        {
-            Salario = salario;
-        }
         public Professor()
         {
             
         }
+        public Professor(string nome) : base(nome)
+        {
+            
+        }
         public double Salario { get; set; }
+
+        public sealed override void Apresentar()
+        {
+            Console.WriteLine($"O professor {Nome}, de {Idade} anos, ganha {Salario.ToString("C")}");
+        }
     }
 }

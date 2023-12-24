@@ -7,14 +7,19 @@ namespace Project4_POO.Models
 {
     public class Aluno : Pessoa
     {
-        public Aluno(int nota)
-        {
-            Nota = nota;
-        }
         public Aluno()
         {
             
         }
+        public Aluno(string nome) : base(nome)
+        {
+            
+        }
         public int Nota { get; set; }
+
+        public override void Apresentar()
+        {
+            Console.WriteLine($"O aluno {Nome}, que tem {Idade} anos tem uma nota {Nota}");
+        }
     }
 }

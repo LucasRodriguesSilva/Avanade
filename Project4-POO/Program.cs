@@ -24,8 +24,18 @@ aluno1.Nome = "Lucas";
 aluno1.Idade = 25;
 aluno1.Nota = 10;
 
+aluno1.Apresentar();
+
 Console.WriteLine("PROFESSOR");
 Professor professor1 = new Professor();
 professor1.Nome = "Bruno";
 professor1.Idade = 25;
 professor1.Salario = 2000;
+
+professor1.Apresentar();
+
+Console.WriteLine("CREDITANDO NA CONTA CORRENTE");
+Corrente corrente1 = new Corrente();
+corrente1.Creditar(100);
+corrente1.ExibirSaldo();
+
